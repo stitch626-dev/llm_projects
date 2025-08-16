@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "description": "客服机器人平台对话历史数据",
+    "source": "业务数据库",
+    "data_type": "multi_turn_conversations",
+    "scenes": ["商品咨询", "价格询问", "促销活动", "订单查询", "退款申请", "技术支持", "使用指导", "安全提醒", "事实核实", "信息确认"]
+  },
+  "conversations": [
+    {
+      "dialogue_id": "conv_001",
+      "scene": "商品咨询",
+      "user_satisfaction": 4,
+      "conversations": [
+        {"user": "这款手机有什么特色功能？", "agent": "这款手机拥有3000W高清摄像头，可以拍出媲美专业相机的照片"},
+        {"user": "电池续航怎么样？", "agent": "3000毫安电池续航能力超强，一天用下来都不用充电，让你告别电量焦虑"}
+      ]
+    },
+    {
+      "dialogue_id": "conv_002",
+      "scene": "价格询问",
+      "user_satisfaction": 5,
+      "conversations": [
+        {"user": "现在买有优惠吗？", "agent": "现在购买还能享受限时折扣，真的不要错过哦！原价2999元，现在只要2399元"},
+        {"user": "这个价格还能再便宜点吗？", "agent": "这已经是我们能给到的最优惠价格了，而且还送价值299元的手机壳套装"}
+      ]
+    },
+    {
+      "dialogue_id": "conv_003",
+      "scene": "促销活动",
+      "user_satisfaction": 4,
+      "conversations": [
+        {"user": "有什么促销活动吗？", "agent": "现在正值双11大促，全场商品8折起，还有满减活动，买得越多省得越多！"}
+      ]
+    },
+    {
+      "dialogue_id": "conv_004",
+      "scene": "订单查询",
+      "user_satisfaction": 4,
+      "conversations": [
+        {"user": "我的订单什么时候能到？", "agent": "您的订单已经发货，预计明天下午到达，请注意查收短信通知"}
+      ]
+    },
+    {
+      "dialogue_id": "conv_005",
+      "scene": "退款申请",
+      "user_satisfaction": 5,
+      "conversations": [
+        {"user": "我想退货，怎么办理？", "agent": "没问题，我来帮您处理。请提供订单号，我立即为您申请退款"},
+        {"user": "大概多久能到账？", "agent": "退款会在3-5个工作日内原路返回到您的付款账户"}
+      ]
+    },
+    {
+      "dialogue_id": "conv_006",
+      "scene": "技术支持",
+      "user_satisfaction": 5,
+      "conversations": [
+        {"user": "手机连不上WiFi怎么办？", "agent": "请先检查WiFi密码是否正确，然后在设置-WiFi中忘记网络后重新连接"}
+      ]
+    },
+    {
+      "dialogue_id": "conv_007",
+      "scene": "使用指导",
+      "user_satisfaction": 4,
+      "conversations": [
+        {"user": "怎么设置指纹解锁？", "agent": "进入设置-安全-指纹，按照提示录入指纹即可。建议录入多个角度确保识别准确"}
+      ]
+    },
+    {
+      "dialogue_id": "conv_008",
+      "scene": "安全提醒",
+      "user_satisfaction": 5,
+      "conversations": [
+        {"user": "有人要我的密码，我该给吗？", "agent": "绝对不要给任何人您的密码和验证码，我们的客服也不会主动索要这些信息"}
+      ]
+    },
+    {
+      "dialogue_id": "conv_009",
+      "scene": "事实核实",
+      "user_satisfaction": 4,
+      "conversations": [
+        {"user": "这款手机真的防水吗？", "agent": "这款手机支持IP67级别防水，可以短时间浸入1米深的水中，但不建议长时间泡水"}
+      ]
+    },
+    {
+      "dialogue_id": "conv_010",
+      "scene": "信息确认",
+      "user_satisfaction": 5,
+      "conversations": [
+        {"user": "你们说的优惠是真的吗？", "agent": "是的，所有优惠活动都是真实有效的，您可以在我们官网查看活动详情和条款"}
+      ]
+    },
+    {
+      "dialogue_id": "conv_011",
+      "scene": "商品咨询",
+      "user_satisfaction": 5,
+      "conversations": [
+        {"user": "这款笔记本的配置怎么样？", "agent": "这款笔记本搭载最新Intel i7处理器，16GB内存，512GB SSD，性能强劲，适合办公和娱乐"},
+        {"user": "屏幕质量如何？", "agent": "15.6寸IPS全高清屏幕，色彩还原度高，观看体验出色"}
+      ]
+    },
+    {
+      "dialogue_id": "conv_012",
+      "scene": "投诉处理",
+      "user_satisfaction": 4,
+      "conversations": [
+        {"user": "我收到的商品有问题", "agent": "非常抱歉给您带来不便，请详细描述一下问题，我立即为您安排处理方案"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "paths": {
+    "input_data_dir": "rm_data/input_data",
+    "output_data_dir": "rm_data/output_data",
+    "business_data_file": "business_data.json",
+    "opensource_data_file": "opensource_data.json"
+  },
+  "scene_to_style_mapping": {
+    "商品咨询": "售前",
+    "价格询问": "售前",
+    "促销活动": "售前",
+    "订单查询": "售后",
+    "退款申请": "售后",
+    "投诉处理": "售后",
+    "技术支持": "有帮助",
+    "使用指导": "有帮助",
+    "安全提醒": "无伤害",
+    "隐私保护": "无伤害",
+    "事实核实": "诚实",
+    "信息确认": "诚实"
+  },
+  "style_to_english": {
+    "售前": "sales_oriented",
+    "售后": "after_sales",
+    "诚实": "honesty",
+    "有帮助": "helpful",
+    "无伤害": "harmless"
+  },
+  "processing_settings": {
+    "min_score": 4,
+    "duplicate_threshold": 0.7,
+    "target_business_ratio": 0.72,
+    "target_opensource_ratio": 0.28
+  }
+}

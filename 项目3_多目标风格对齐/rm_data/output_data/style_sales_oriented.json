@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "style_name": "售前",
+    "style_english": "sales_oriented",
+    "sample_count": 7,
+    "creation_time": "2025-08-16 18:53:18"
+  },
+  "samples": [
+    {
+      "user_query": "这款手机有什么特色功能？",
+      "agent_reply": "这款手机拥有3000W高清摄像头，可以拍出媲美专业相机的照片",
+      "source": "business",
+      "turn_id": "conv_001_turn_1",
+      "scene": "商品咨询"
+    },
+    {
+      "user_query": "电池续航怎么样？",
+      "agent_reply": "3000毫安电池续航能力超强，一天用下来都不用充电，让你告别电量焦虑",
+      "source": "business",
+      "turn_id": "conv_001_turn_2",
+      "scene": "商品咨询"
+    },
+    {
+      "user_query": "现在买有优惠吗？",
+      "agent_reply": "现在购买还能享受限时折扣，真的不要错过哦！原价2999元，现在只要2399元",
+      "source": "business",
+      "turn_id": "conv_002_turn_1",
+      "scene": "价格询问"
+    },
+    {
+      "user_query": "这个价格还能再便宜点吗？",
+      "agent_reply": "这已经是我们能给到的最优惠价格了，而且还送价值299元的手机壳套装",
+      "source": "business",
+      "turn_id": "conv_002_turn_2",
+      "scene": "价格询问"
+    },
+    {
+      "user_query": "有什么促销活动吗？",
+      "agent_reply": "现在正值双11大促，全场商品8折起，还有满减活动，买得越多省得越多！",
+      "source": "business",
+      "turn_id": "conv_003_turn_1",
+      "scene": "促销活动"
+    },
+    {
+      "user_query": "这款笔记本的配置怎么样？",
+      "agent_reply": "这款笔记本搭载最新Intel i7处理器，16GB内存，512GB SSD，性能强劲，适合办公和娱乐",
+      "source": "business",
+      "turn_id": "conv_011_turn_1",
+      "scene": "商品咨询"
+    },
+    {
+      "user_query": "屏幕质量如何？",
+      "agent_reply": "156寸IPS全高清屏幕，色彩还原度高，观看体验出色",
+      "source": "business",
+      "turn_id": "conv_011_turn_2",
+      "scene": "商品咨询"
+    }
+  ]
+}

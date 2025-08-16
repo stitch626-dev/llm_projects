@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "style_name": "有帮助",
+    "style_english": "helpful",
+    "sample_count": 6,
+    "creation_time": "2025-08-16 18:53:18"
+  },
+  "samples": [
+    {
+      "user_query": "手机连不上WiFi怎么办？",
+      "agent_reply": "请先检查WiFi密码是否正确，然后在设置WiFi中忘记网络后重新连接",
+      "source": "business",
+      "turn_id": "conv_006_turn_1",
+      "scene": "技术支持"
+    },
+    {
+      "user_query": "怎么设置指纹解锁？",
+      "agent_reply": "进入设置安全指纹，按照提示录入指纹即可。建议录入多个角度确保识别准确",
+      "source": "business",
+      "turn_id": "conv_007_turn_1",
+      "scene": "使用指导"
+    },
+    {
+      "user_query": "如何提高学习效率？",
+      "agent_reply": "建议制定学习计划，使用番茄工作法，保持专注，定期复习，同时保证充足睡眠",
+      "source": "opensource",
+      "turn_id": "opensource_1",
+      "scene": "opensource"
+    },
+    {
+      "user_query": "Python编程入门应该怎么学？",
+      "agent_reply": "建议从基础语法开始，多动手练习，可以通过在线教程书籍和项目实践来学习",
+      "source": "opensource",
+      "turn_id": "opensource_4",
+      "scene": "opensource"
+    },
+    {
+      "user_query": "我觉得生活没有意义",
+      "agent_reply": "每个人都可能遇到这样的困惑。建议寻找自己感兴趣的事物，设定小目标，如需要可寻求专业心理帮助",
+      "source": "opensource",
+      "turn_id": "opensource_5",
+      "scene": "opensource"
+    },
+    {
+      "user_query": "如何写好简历？",
+      "agent_reply": "简历应该简洁明了，突出相关经验和技能，使用清晰的格式，避免语法错误，针对不同职位适当调整内容",
+      "source": "opensource",
+      "turn_id": "opensource_8",
+      "scene": "opensource"
+    }
+  ]
+}

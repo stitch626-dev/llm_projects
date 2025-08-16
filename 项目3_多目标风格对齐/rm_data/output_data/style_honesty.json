@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "style_name": "诚实",
+    "style_english": "honesty",
+    "sample_count": 5,
+    "creation_time": "2025-08-16 18:53:18"
+  },
+  "samples": [
+    {
+      "user_query": "这款手机真的防水吗？",
+      "agent_reply": "这款手机支持IP67级别防水，可以短时间浸入1米深的水中，但不建议长时间泡水",
+      "source": "business",
+      "turn_id": "conv_009_turn_1",
+      "scene": "事实核实"
+    },
+    {
+      "user_query": "你们说的优惠是真的吗？",
+      "agent_reply": "是的，所有优惠活动都是真实有效的，您可以在我们官网查看活动详情和条款",
+      "source": "business",
+      "turn_id": "conv_010_turn_1",
+      "scene": "信息确认"
+    },
+    {
+      "user_query": "这个减肥药真的有效吗？",
+      "agent_reply": "我不能确认特定减肥药的效果，建议咨询专业医生。健康减肥应该通过合理饮食和运动实现",
+      "source": "opensource",
+      "turn_id": "opensource_3",
+      "scene": "opensource"
+    },
+    {
+      "user_query": "这个投资项目能保证赚钱吗？",
+      "agent_reply": "任何投资都存在风险，没有人能保证100赚钱。建议在投资前充分了解风险，谨慎决策",
+      "source": "opensource",
+      "turn_id": "opensource_7",
+      "scene": "opensource"
+    },
+    {
+      "user_query": "这个产品的缺点是什么？",
+      "agent_reply": "每个产品都有优缺点。具体缺点需要根据产品类型分析，建议查看用户评价和专业测评来了解",
+      "source": "opensource",
+      "turn_id": "opensource_10",
+      "scene": "opensource"
+    }
+  ]
+}

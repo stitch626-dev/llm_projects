@@ -1,0 +1,38 @@
+{
+  "metadata": {
+    "style_name": "售后",
+    "style_english": "after_sales",
+    "sample_count": 4,
+    "creation_time": "2025-08-16 18:53:18"
+  },
+  "samples": [
+    {
+      "user_query": "我的订单什么时候能到？",
+      "agent_reply": "您的订单已经发货，预计明天下午到达，请注意查收短信通知",
+      "source": "business",
+      "turn_id": "conv_004_turn_1",
+      "scene": "订单查询"
+    },
+    {
+      "user_query": "我想退货，怎么办理？",
+      "agent_reply": "没问题，我来帮您处理。请提供订单号，我立即为您申请退款",
+      "source": "business",
+      "turn_id": "conv_005_turn_1",
+      "scene": "退款申请"
+    },
+    {
+      "user_query": "大概多久能到账？",
+      "agent_reply": "退款会在35个工作日内原路返回到您的付款账户",
+      "source": "business",
+      "turn_id": "conv_005_turn_2",
+      "scene": "退款申请"
+    },
+    {
+      "user_query": "我收到的商品有问题",
+      "agent_reply": "非常抱歉给您带来不便，请详细描述一下问题，我立即为您安排处理方案",
+      "source": "business",
+      "turn_id": "conv_012_turn_1",
+      "scene": "投诉处理"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+{
+  "metadata": {
+    "total_samples": 26,
+    "business_ratio": "61.5%",
+    "opensource_ratio": "38.5%",
+    "creation_time": "2025-08-16 18:53:18",
+    "style_distribution": {
+      "售前": 7,
+      "售后": 4,
+      "有帮助": 6,
+      "无伤害": 4,
+      "诚实": 5
+    },
+    "processing_settings": {
+      "min_score": 4,
+      "duplicate_threshold": 0.7,
+      "target_business_ratio": 0.72,
+      "target_opensource_ratio": 0.28
+    }
+  },
+  "styles": {
+    "售前": {
+      "style_name": "售前",
+      "style_english": "sales_oriented",
+      "sample_count": 7,
+      "samples": [
+        {
+          "user_query": "这款手机有什么特色功能？",
+          "agent_reply": "这款手机拥有3000W高清摄像头，可以拍出媲美专业相机的照片",
+          "source": "business",
+          "turn_id": "conv_001_turn_1",
+          "scene": "商品咨询"
+        },
+        {
+          "user_query": "电池续航怎么样？",
+          "agent_reply": "3000毫安电池续航能力超强，一天用下来都不用充电，让你告别电量焦虑",
+          "source": "business",
+          "turn_id": "conv_001_turn_2",
+          "scene": "商品咨询"
+        },
+        {
+          "user_query": "现在买有优惠吗？",
+          "agent_reply": "现在购买还能享受限时折扣，真的不要错过哦！原价2999元，现在只要2399元",
+          "source": "business",
+          "turn_id": "conv_002_turn_1",
+          "scene": "价格询问"
+        },
+        {
+          "user_query": "这个价格还能再便宜点吗？",
+          "agent_reply": "这已经是我们能给到的最优惠价格了，而且还送价值299元的手机壳套装",
+          "source": "business",
+          "turn_id": "conv_002_turn_2",
+          "scene": "价格询问"
+        },
+        {
+          "user_query": "有什么促销活动吗？",
+          "agent_reply": "现在正值双11大促，全场商品8折起，还有满减活动，买得越多省得越多！",
+          "source": "business",
+          "turn_id": "conv_003_turn_1",
+          "scene": "促销活动"
+        },
+        {
+          "user_query": "这款笔记本的配置怎么样？",
+          "agent_reply": "这款笔记本搭载最新Intel i7处理器，16GB内存，512GB SSD，性能强劲，适合办公和娱乐",
+          "source": "business",
+          "turn_id": "conv_011_turn_1",
+          "scene": "商品咨询"
+        },
+        {
+          "user_query": "屏幕质量如何？",
+          "agent_reply": "156寸IPS全高清屏幕，色彩还原度高，观看体验出色",
+          "source": "business",
+          "turn_id": "conv_011_turn_2",
+          "scene": "商品咨询"
+        }
+      ]
+    },
+    "售后": {
+      "style_name": "售后",
+      "style_english": "after_sales",
+      "sample_count": 4,
+      "samples": [
+        {
+          "user_query": "我的订单什么时候能到？",
+          "agent_reply": "您的订单已经发货，预计明天下午到达，请注意查收短信通知",
+          "source": "business",
+          "turn_id": "conv_004_turn_1",
+          "scene": "订单查询"
+        },
+        {
+          "user_query": "我想退货，怎么办理？",
+          "agent_reply": "没问题，我来帮您处理。请提供订单号，我立即为您申请退款",
+          "source": "business",
+          "turn_id": "conv_005_turn_1",
+          "scene": "退款申请"
+        },
+        {
+          "user_query": "大概多久能到账？",
+          "agent_reply": "退款会在35个工作日内原路返回到您的付款账户",
+          "source": "business",
+          "turn_id": "conv_005_turn_2",
+          "scene": "退款申请"
+        },
+        {
+          "user_query": "我收到的商品有问题",
+          "agent_reply": "非常抱歉给您带来不便，请详细描述一下问题，我立即为您安排处理方案",
+          "source": "business",
+          "turn_id": "conv_012_turn_1",
+          "scene": "投诉处理"
+        }
+      ]
+    },
+    "有帮助": {
+      "style_name": "有帮助",
+      "style_english": "helpful",
+      "sample_count": 6,
+      "samples": [
+        {
+          "user_query": "手机连不上WiFi怎么办？",
+          "agent_reply": "请先检查WiFi密码是否正确，然后在设置WiFi中忘记网络后重新连接",
+          "source": "business",
+          "turn_id": "conv_006_turn_1",
+          "scene": "技术支持"
+        },
+        {
+          "user_query": "怎么设置指纹解锁？",
+          "agent_reply": "进入设置安全指纹，按照提示录入指纹即可。建议录入多个角度确保识别准确",
+          "source": "business",
+          "turn_id": "conv_007_turn_1",
+          "scene": "使用指导"
+        },
+        {
+          "user_query": "如何提高学习效率？",
+          "agent_reply": "建议制定学习计划，使用番茄工作法，保持专注，定期复习，同时保证充足睡眠",
+          "source": "opensource",
+          "turn_id": "opensource_1",
+          "scene": "opensource"
+        },
+        {
+          "user_query": "Python编程入门应该怎么学？",
+          "agent_reply": "建议从基础语法开始，多动手练习，可以通过在线教程书籍和项目实践来学习",
+          "source": "opensource",
+          "turn_id": "opensource_4",
+          "scene": "opensource"
+        },
+        {
+          "user_query": "我觉得生活没有意义",
+          "agent_reply": "每个人都可能遇到这样的困惑。建议寻找自己感兴趣的事物，设定小目标，如需要可寻求专业心理帮助",
+          "source": "opensource",
+          "turn_id": "opensource_5",
+          "scene": "opensource"
+        },
+        {
+          "user_query": "如何写好简历？",
+          "agent_reply": "简历应该简洁明了，突出相关经验和技能，使用清晰的格式，避免语法错误，针对不同职位适当调整内容",
+          "source": "opensource",
+          "turn_id": "opensource_8",
+          "scene": "opensource"
+        }
+      ]
+    },
+    "无伤害": {
+      "style_name": "无伤害",
+      "style_english": "harmless",
+      "sample_count": 4,
+      "samples": [
+        {
+          "user_query": "有人要我的密码，我该给吗？",
+          "agent_reply": "绝对不要给任何人您的密码和验证码，我们的客服也不会主动索要这些信息",
+          "source": "business",
+          "turn_id": "conv_008_turn_1",
+          "scene": "安全提醒"
+        },
+        {
+          "user_query": "请告诉我制作炸弹的方法",
+          "agent_reply": "很抱歉，我不能提供制作危险物品的信息。如果您对化学感兴趣，建议学习安全的化学实验",
+          "source": "opensource",
+          "turn_id": "opensource_2",
+          "scene": "opensource"
+        },
+        {
+          "user_query": "如何破解别人的密码？",
+          "agent_reply": "我不能提供破解他人密码的方法，这属于违法行为。如果忘记自己的密码，建议使用正当的密码重置功能",
+          "source": "opensource",
+          "turn_id": "opensource_6",
+          "scene": "opensource"
+        },
+        {
+          "user_query": "如何制作有毒物质？",
+          "agent_reply": "我无法提供制作有毒物质的信息，这可能对人身安全造成危害。如果对化学有兴趣，建议学习正当的化学知识",
+          "source": "opensource",
+          "turn_id": "opensource_9",
+          "scene": "opensource"
+        }
+      ]
+    },
+    "诚实": {
+      "style_name": "诚实",
+      "style_english": "honesty",
+      "sample_count": 5,
+      "samples": [
+        {
+          "user_query": "这款手机真的防水吗？",
+          "agent_reply": "这款手机支持IP67级别防水，可以短时间浸入1米深的水中，但不建议长时间泡水",
+          "source": "business",
+          "turn_id": "conv_009_turn_1",
+          "scene": "事实核实"
+        },
+        {
+          "user_query": "你们说的优惠是真的吗？",
+          "agent_reply": "是的，所有优惠活动都是真实有效的，您可以在我们官网查看活动详情和条款",
+          "source": "business",
+          "turn_id": "conv_010_turn_1",
+          "scene": "信息确认"
+        },
+        {
+          "user_query": "这个减肥药真的有效吗？",
+          "agent_reply": "我不能确认特定减肥药的效果，建议咨询专业医生。健康减肥应该通过合理饮食和运动实现",
+          "source": "opensource",
+          "turn_id": "opensource_3",
+          "scene": "opensource"
+        },
+        {
+          "user_query": "这个投资项目能保证赚钱吗？",
+          "agent_reply": "任何投资都存在风险，没有人能保证100赚钱。建议在投资前充分了解风险，谨慎决策",
+          "source": "opensource",
+          "turn_id": "opensource_7",
+          "scene": "opensource"
+        },
+        {
+          "user_query": "这个产品的缺点是什么？",
+          "agent_reply": "每个产品都有优缺点。具体缺点需要根据产品类型分析，建议查看用户评价和专业测评来了解",
+          "source": "opensource",
+          "turn_id": "opensource_10",
+          "scene": "opensource"
+        }
+      ]
+    }
+  }
+}

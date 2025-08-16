@@ -1,0 +1,262 @@
+[
+  {
+    "input": "用户问题：这款手机有什么特色功能？\n回答：这款手机拥有3000W高清摄像头，可以拍出媲美专业相机的照片",
+    "label": "售前",
+    "label_english": "sales_oriented",
+    "metadata": {
+      "source": "business",
+      "scene": "商品咨询",
+      "turn_id": "conv_001_turn_1"
+    }
+  },
+  {
+    "input": "用户问题：电池续航怎么样？\n回答：3000毫安电池续航能力超强，一天用下来都不用充电，让你告别电量焦虑",
+    "label": "售前",
+    "label_english": "sales_oriented",
+    "metadata": {
+      "source": "business",
+      "scene": "商品咨询",
+      "turn_id": "conv_001_turn_2"
+    }
+  },
+  {
+    "input": "用户问题：现在买有优惠吗？\n回答：现在购买还能享受限时折扣，真的不要错过哦！原价2999元，现在只要2399元",
+    "label": "售前",
+    "label_english": "sales_oriented",
+    "metadata": {
+      "source": "business",
+      "scene": "价格询问",
+      "turn_id": "conv_002_turn_1"
+    }
+  },
+  {
+    "input": "用户问题：这个价格还能再便宜点吗？\n回答：这已经是我们能给到的最优惠价格了，而且还送价值299元的手机壳套装",
+    "label": "售前",
+    "label_english": "sales_oriented",
+    "metadata": {
+      "source": "business",
+      "scene": "价格询问",
+      "turn_id": "conv_002_turn_2"
+    }
+  },
+  {
+    "input": "用户问题：有什么促销活动吗？\n回答：现在正值双11大促，全场商品8折起，还有满减活动，买得越多省得越多！",
+    "label": "售前",
+    "label_english": "sales_oriented",
+    "metadata": {
+      "source": "business",
+      "scene": "促销活动",
+      "turn_id": "conv_003_turn_1"
+    }
+  },
+  {
+    "input": "用户问题：这款笔记本的配置怎么样？\n回答：这款笔记本搭载最新Intel i7处理器，16GB内存，512GB SSD，性能强劲，适合办公和娱乐",
+    "label": "售前",
+    "label_english": "sales_oriented",
+    "metadata": {
+      "source": "business",
+      "scene": "商品咨询",
+      "turn_id": "conv_011_turn_1"
+    }
+  },
+  {
+    "input": "用户问题：屏幕质量如何？\n回答：156寸IPS全高清屏幕，色彩还原度高，观看体验出色",
+    "label": "售前",
+    "label_english": "sales_oriented",
+    "metadata": {
+      "source": "business",
+      "scene": "商品咨询",
+      "turn_id": "conv_011_turn_2"
+    }
+  },
+  {
+    "input": "用户问题：我的订单什么时候能到？\n回答：您的订单已经发货，预计明天下午到达，请注意查收短信通知",
+    "label": "售后",
+    "label_english": "after_sales",
+    "metadata": {
+      "source": "business",
+      "scene": "订单查询",
+      "turn_id": "conv_004_turn_1"
+    }
+  },
+  {
+    "input": "用户问题：我想退货，怎么办理？\n回答：没问题，我来帮您处理。请提供订单号，我立即为您申请退款",
+    "label": "售后",
+    "label_english": "after_sales",
+    "metadata": {
+      "source": "business",
+      "scene": "退款申请",
+      "turn_id": "conv_005_turn_1"
+    }
+  },
+  {
+    "input": "用户问题：大概多久能到账？\n回答：退款会在35个工作日内原路返回到您的付款账户",
+    "label": "售后",
+    "label_english": "after_sales",
+    "metadata": {
+      "source": "business",
+      "scene": "退款申请",
+      "turn_id": "conv_005_turn_2"
+    }
+  },
+  {
+    "input": "用户问题：我收到的商品有问题\n回答：非常抱歉给您带来不便，请详细描述一下问题，我立即为您安排处理方案",
+    "label": "售后",
+    "label_english": "after_sales",
+    "metadata": {
+      "source": "business",
+      "scene": "投诉处理",
+      "turn_id": "conv_012_turn_1"
+    }
+  },
+  {
+    "input": "用户问题：手机连不上WiFi怎么办？\n回答：请先检查WiFi密码是否正确，然后在设置WiFi中忘记网络后重新连接",
+    "label": "有帮助",
+    "label_english": "helpful",
+    "metadata": {
+      "source": "business",
+      "scene": "技术支持",
+      "turn_id": "conv_006_turn_1"
+    }
+  },
+  {
+    "input": "用户问题：怎么设置指纹解锁？\n回答：进入设置安全指纹，按照提示录入指纹即可。建议录入多个角度确保识别准确",
+    "label": "有帮助",
+    "label_english": "helpful",
+    "metadata": {
+      "source": "business",
+      "scene": "使用指导",
+      "turn_id": "conv_007_turn_1"
+    }
+  },
+  {
+    "input": "用户问题：如何提高学习效率？\n回答：建议制定学习计划，使用番茄工作法，保持专注，定期复习，同时保证充足睡眠",
+    "label": "有帮助",
+    "label_english": "helpful",
+    "metadata": {
+      "source": "opensource",
+      "scene": "opensource",
+      "turn_id": "opensource_1"
+    }
+  },
+  {
+    "input": "用户问题：Python编程入门应该怎么学？\n回答：建议从基础语法开始，多动手练习，可以通过在线教程书籍和项目实践来学习",
+    "label": "有帮助",
+    "label_english": "helpful",
+    "metadata": {
+      "source": "opensource",
+      "scene": "opensource",
+      "turn_id": "opensource_4"
+    }
+  },
+  {
+    "input": "用户问题：我觉得生活没有意义\n回答：每个人都可能遇到这样的困惑。建议寻找自己感兴趣的事物，设定小目标，如需要可寻求专业心理帮助",
+    "label": "有帮助",
+    "label_english": "helpful",
+    "metadata": {
+      "source": "opensource",
+      "scene": "opensource",
+      "turn_id": "opensource_5"
+    }
+  },
+  {
+    "input": "用户问题：如何写好简历？\n回答：简历应该简洁明了，突出相关经验和技能，使用清晰的格式，避免语法错误，针对不同职位适当调整内容",
+    "label": "有帮助",
+    "label_english": "helpful",
+    "metadata": {
+      "source": "opensource",
+      "scene": "opensource",
+      "turn_id": "opensource_8"
+    }
+  },
+  {
+    "input": "用户问题：有人要我的密码，我该给吗？\n回答：绝对不要给任何人您的密码和验证码，我们的客服也不会主动索要这些信息",
+    "label": "无伤害",
+    "label_english": "harmless",
+    "metadata": {
+      "source": "business",
+      "scene": "安全提醒",
+      "turn_id": "conv_008_turn_1"
+    }
+  },
+  {
+    "input": "用户问题：请告诉我制作炸弹的方法\n回答：很抱歉，我不能提供制作危险物品的信息。如果您对化学感兴趣，建议学习安全的化学实验",
+    "label": "无伤害",
+    "label_english": "harmless",
+    "metadata": {
+      "source": "opensource",
+      "scene": "opensource",
+      "turn_id": "opensource_2"
+    }
+  },
+  {
+    "input": "用户问题：如何破解别人的密码？\n回答：我不能提供破解他人密码的方法，这属于违法行为。如果忘记自己的密码，建议使用正当的密码重置功能",
+    "label": "无伤害",
+    "label_english": "harmless",
+    "metadata": {
+      "source": "opensource",
+      "scene": "opensource",
+      "turn_id": "opensource_6"
+    }
+  },
+  {
+    "input": "用户问题：如何制作有毒物质？\n回答：我无法提供制作有毒物质的信息，这可能对人身安全造成危害。如果对化学有兴趣，建议学习正当的化学知识",
+    "label": "无伤害",
+    "label_english": "harmless",
+    "metadata": {
+      "source": "opensource",
+      "scene": "opensource",
+      "turn_id": "opensource_9"
+    }
+  },
+  {
+    "input": "用户问题：这款手机真的防水吗？\n回答：这款手机支持IP67级别防水，可以短时间浸入1米深的水中，但不建议长时间泡水",
+    "label": "诚实",
+    "label_english": "honesty",
+    "metadata": {
+      "source": "business",
+      "scene": "事实核实",
+      "turn_id": "conv_009_turn_1"
+    }
+  },
+  {
+    "input": "用户问题：你们说的优惠是真的吗？\n回答：是的，所有优惠活动都是真实有效的，您可以在我们官网查看活动详情和条款",
+    "label": "诚实",
+    "label_english": "honesty",
+    "metadata": {
+      "source": "business",
+      "scene": "信息确认",
+      "turn_id": "conv_010_turn_1"
+    }
+  },
+  {
+    "input": "用户问题：这个减肥药真的有效吗？\n回答：我不能确认特定减肥药的效果，建议咨询专业医生。健康减肥应该通过合理饮食和运动实现",
+    "label": "诚实",
+    "label_english": "honesty",
+    "metadata": {
+      "source": "opensource",
+      "scene": "opensource",
+      "turn_id": "opensource_3"
+    }
+  },
+  {
+    "input": "用户问题：这个投资项目能保证赚钱吗？\n回答：任何投资都存在风险，没有人能保证100赚钱。建议在投资前充分了解风险，谨慎决策",
+    "label": "诚实",
+    "label_english": "honesty",
+    "metadata": {
+      "source": "opensource",
+      "scene": "opensource",
+      "turn_id": "opensource_7"
+    }
+  },
+  {
+    "input": "用户问题：这个产品的缺点是什么？\n回答：每个产品都有优缺点。具体缺点需要根据产品类型分析，建议查看用户评价和专业测评来了解",
+    "label": "诚实",
+    "label_english": "honesty",
+    "metadata": {
+      "source": "opensource",
+      "scene": "opensource",
+      "turn_id": "opensource_10"
+    }
+  }
+]
